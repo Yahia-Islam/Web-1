@@ -1,12 +1,15 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 h1{
     font-size: 45px;
+}
+#dig{
+    color: turquoise;
 }
 .orange{
     color: turquoise;
@@ -27,7 +30,11 @@ p{
     width: 73%;
 }
 #fb-pic{
-    width: 83%;
+    width: 85%;
+}
+#fb{
+    margin-right: 20px;
+
 }
 .link-button{
     text-decoration: none;
@@ -39,5 +46,38 @@ p{
     font-size: 23px;
 }
 .one p {
+    text-align: center;
+}
+.box{
+    width: 45%;
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 50px rgb(2, 0, 0);
+    
+
+    
+    
+}
+#gads{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato );
+    border-image-slice: 1;
+
+}
+#fads{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue );
+    border-image-slice: 1;
+}
+.fiver-pic{
+    width: 90%;
+}
+.google-pic{
+    width: 90%;
+}
+
+footer p {
     text-align: center;
 }
